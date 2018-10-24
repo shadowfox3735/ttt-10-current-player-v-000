@@ -1,7 +1,8 @@
 def turn_count(board)
   counter = 0
   board_spaces_checked = 0
-  board_spaces = board.length
+  board_spaces = board.size
+  
     if board == "X" || board == "O"
       counter += 1
     end
