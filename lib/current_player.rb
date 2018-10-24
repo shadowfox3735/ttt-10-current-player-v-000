@@ -2,7 +2,7 @@ def turn_count(board)
   counter = 0
   board.each do |board|
     if board.eql? "X" || board.eql? "O"
-      counter += 1
+      then counter += 1
     end
     counter
 end
