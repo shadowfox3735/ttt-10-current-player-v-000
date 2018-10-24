@@ -9,7 +9,6 @@ def turn_count(board)
     board_spaces_checked += 1
   end
 end
-end
 
 def current_player(board)
   if turn_count(board) % 2 == 1
